@@ -13,7 +13,8 @@ import java.util.zip.Deflater
 import java.util.zip.Inflater
 
 object Util {
-
+    const val DEFAULT_SUBSCRIPTION_URL = "https://gist.githubusercontent.com/NovicXDev/fc08817926457addc445ab770ebf402c/raw/31576893c00439656e1b8c5fe52092f46e7dea5c/servers.json"
+    
     /**
      * 取两个文本之间的文本值
      *
